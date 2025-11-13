@@ -1,0 +1,17 @@
+{
+  "name": "cli-log-analyzer",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": { "log-analyze": "./bin/finder.js" },
+  "scripts": {
+    "start": "node ./bin/finder.js",
+    "finder": "node ./bin/finder.js",
+    "test": "jest --runInBand --detectOpenHandles"
+  },
+  "dependencies": {
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

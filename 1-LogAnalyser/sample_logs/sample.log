@@ -1,0 +1,12 @@
+[INFO] Server started
+[INFO] Request /api/ping
+[ERROR] DB connection failed
+[WARN] Cache miss for key user:123
+[ERROR] Timeout while fetching user data
+[INFO] Request /api/user/123
+[DEBUG] User data: {"id":123,"name":"Alice"}
+[ERROR] DB connection failed
+[INFO] Server stopped
+[INFO] Server restarted
+[ERROR] Request /api/ping
+[ERROR] DB connection failed
